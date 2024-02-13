@@ -287,15 +287,23 @@ p.two {
     }
 }
 /*Media*/
-@media screen and (max-width: 1024px) {
+@media screen and (max-device-width: 425px) {
     body {
         flex-direction: column;
     }
     p {
-        font-size: 54px;
+        font-size: 65px !important;
     }
     canvas {
         width: 84dvmin;
+    }
+}
+@media screen and (max-device-height: 565px) and (orientation: landscape) {
+    p {
+        font-size: 34px !important;
+    }
+    canvas {
+        width: 83dvmin;
     }
 }
 
