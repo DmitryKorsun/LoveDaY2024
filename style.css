@@ -300,10 +300,10 @@ p.two {
 }
 @media screen and (max-device-height: 565px) and (orientation: landscape) {
     p {
-        font-size: 34px !important;
+        font-size: 25px !important;
     }
     canvas {
-        width: 83dvmin;
+        width: 54dvmin;
     }
 }
 
