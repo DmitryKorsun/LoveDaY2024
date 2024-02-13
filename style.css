@@ -292,7 +292,7 @@ p.two {
         flex-direction: column;
     }
     p {
-        font-size: 50px !important;
+        font-size: 52px !important;
     }
     canvas {
         width: 84dvmin;
@@ -300,10 +300,10 @@ p.two {
 }
 @media screen and (max-device-height: 565px) and (orientation: landscape) {
     p {
-        font-size: 25px !important;
+        font-size: 15px !important;
     }
     canvas {
-        width: 54dvmin;
+        width: 32dvmin;
     }
 }
 
