@@ -302,6 +302,12 @@ p.two {
     p {
         font-size: 26px !important;
     }
+    section {
+        margin-top: 70px;
+    }
+    p.two {
+        margin: 0;
+    }
     canvas {
         width: 85dvmin;
     }
